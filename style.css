@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root{
     /* CSS HEX */
---seasalt: #fcfafaff;
---silver: #c8d3d5ff;
---powder-blue: #a4b8c4ff;
---slate-gray: #6e8387ff;
+--branco: #fcfafaff;
+--salmao: #c8d3d5ff;
+--cinza: #a4b8c4ff;
+--cinza-escuro: #6e8387ff;
+--titulo: "Lora", serif;
+--texto: "Lavishly Yours", cursive;
 
+}
+body{
+       background-color: var(--cinza);
+       font-family: var(--texto);
 }
